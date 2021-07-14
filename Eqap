@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-cd $HOME/Eqap
-token="1820439085:AAEX0ds_3NKGH3kB3meM0VcPGimIl7jZvcc"
-while(true) do
-rm -fr ../.telegram-cli
-./tg -s ./Eqap.lua -p PROFILE --bot=$token
-done
